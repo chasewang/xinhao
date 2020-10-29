@@ -1,0 +1,49 @@
+import numpy as np
+import matplotlib.pyplot as plt 
+x=np.arange(-5.0,5.0,0.01)
+y1=np.cos(x)
+plt.figure(1)
+plt.subplot(211)
+plt.plot(x,y1)
+plt.show()                                 
+
+import numpy as np
+import matplotlib.pyplot as plt 
+x=np.arange(-5.0,5.0,0.01)
+y1=np.exp(x)
+plt.figure(1)
+plt.plot(x,y1)
+plt.show()
+
+
+import numpy as np
+import matplotlib.pyplot as plt
+x=np.arange(-100.0,100.0,0.01)
+y1=np.exp(0.01*x)*np.cos(x)
+plt.figure(1)
+plt.subplot(211)
+plt.plot(x,y1)
+plt.show()
+
+
+import numpy as np
+import matplotlib.pyplot as plt
+x=np.arange(-100.0,100.0,0.01)
+y1=np.exp(-0.01*x)*np.cos(x)
+plt.figure(1)
+plt.subplot(211)
+plt.plot(x,y1)
+plt.show()
+
+
+import numpy as np
+import matplotlib.pyplot as plt 
+x=np.arange(-1.0,1.0,0.01)
+y1=np.exp(x)
+y2=np.exp(-x)
+y3=np.exp(0*x)
+plt.figure(1)
+plt.plot(x,y1)
+plt.plot(x,y2)
+plt.plot(x,y3)
+plt.show()
